@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:var} = love.graphics.toggleFullscreen( )
+$0</string>
+	<key>name</key>
+	<string>toggleFullscreen</string>
+	<key>tabTrigger</key>
+	<string>togglefullscreen</string>
+	<key>uuid</key>
+	<string>CBEE57F3-A580-4C4B-BEA8-D85F64CF8919</string>
+</dict>
+</plist>

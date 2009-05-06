@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>coroutine.yield( ${1:optionalArguments} )</string>
+	<key>name</key>
+	<string>coroutine.yield (with args)</string>
+	<key>scope</key>
+	<string>source.lua</string>
+	<key>tabTrigger</key>
+	<string>coroutine.yield</string>
+	<key>uuid</key>
+	<string>8A0BED8F-EF67-4DBD-8209-8B98A2A53ECA</string>
+</dict>
+</plist>

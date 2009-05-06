@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>table.remove( ${1:arrayTable}${2:, optionalIndex} )</string>
+	<key>name</key>
+	<string>table.remove (with args)</string>
+	<key>scope</key>
+	<string>source.lua</string>
+	<key>tabTrigger</key>
+	<string>table.remove</string>
+	<key>uuid</key>
+	<string>88788FEA-2C29-40A6-B693-20C7B4C93B4F</string>
+</dict>
+</plist>

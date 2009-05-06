@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>pairs( ${1:tableObject } )</string>
+	<key>name</key>
+	<string>pairs (with args)</string>
+	<key>scope</key>
+	<string>source.lua</string>
+	<key>tabTrigger</key>
+	<string>pairs</string>
+	<key>uuid</key>
+	<string>1B1007BF-E264-45F7-A3B3-28463F56B679</string>
+</dict>
+</plist>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:revolutejoint} = love.physics.newRevoluteJoint( ${2:body1}, ${3:body2}, x, y )
+$0</string>
+	<key>name</key>
+	<string>newRevoluteJoint</string>
+	<key>tabTrigger</key>
+	<string>newrevolutejoint</string>
+	<key>uuid</key>
+	<string>E62E34DE-59E1-4AE1-8890-3D37818CC758</string>
+</dict>
+</plist>

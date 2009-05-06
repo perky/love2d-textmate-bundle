@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>string.gsub( ${1:stringValue}, ${2:searchPattern}, ${3:replacementStringOrFunction}${4:, maxReplacements} )</string>
+	<key>name</key>
+	<string>string.gsub (with args)</string>
+	<key>scope</key>
+	<string>source.lua</string>
+	<key>tabTrigger</key>
+	<string>string.gsub</string>
+	<key>uuid</key>
+	<string>E01C8E6C-60DC-4923-B80C-98D30233BFF2</string>
+</dict>
+</plist>

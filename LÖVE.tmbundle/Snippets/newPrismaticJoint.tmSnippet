@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:prismaticjoint} = love.graphics.newPrismaticJoint( ${2:body1}, ${3:body2}, x, y, ${4:ax}, ${5:ay} )
+$0</string>
+	<key>name</key>
+	<string>newPrismaticJoint</string>
+	<key>tabTrigger</key>
+	<string>newprismaticjoint</string>
+	<key>uuid</key>
+	<string>864A2E02-F9A9-4762-B034-32BE1FDF30B3</string>
+</dict>
+</plist>

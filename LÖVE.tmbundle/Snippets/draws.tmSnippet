@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>love.graphics.draws( "${1:image}", x, y, ${2:cx}, ${3:cy}, ${4:w}, ${5:h}${6:, ${7:angle}, ${8:sx}, ${9:sy}, ${10:ox}, ${11:oy}} )
+$0</string>
+	<key>name</key>
+	<string>draws</string>
+	<key>tabTrigger</key>
+	<string>draws</string>
+	<key>uuid</key>
+	<string>E2515632-FA42-4829-80DE-F3BB3E84B21A</string>
+</dict>
+</plist>

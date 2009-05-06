@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>love.system.resume( )
+$0</string>
+	<key>name</key>
+	<string>resume</string>
+	<key>tabTrigger</key>
+	<string>resume</string>
+	<key>uuid</key>
+	<string>D8DA5896-3DF5-4D42-9E82-E6A0517F4C0C</string>
+</dict>
+</plist>

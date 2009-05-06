@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>require( "${1:libraryname}" )</string>
+	<key>name</key>
+	<string>require (with args)</string>
+	<key>scope</key>
+	<string>source.lua</string>
+	<key>tabTrigger</key>
+	<string>require</string>
+	<key>uuid</key>
+	<string>4F82FB9C-1195-4B15-A047-7E42A377331D</string>
+</dict>
+</plist>

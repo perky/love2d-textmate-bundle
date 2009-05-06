@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>setfenv( ${1:luaFunctionOrStackLevel}, ${2:environmentTable} )</string>
+	<key>name</key>
+	<string>setfenv (with args)</string>
+	<key>scope</key>
+	<string>source.lua</string>
+	<key>tabTrigger</key>
+	<string>setfenv</string>
+	<key>uuid</key>
+	<string>C9BF9F03-2116-489B-9EDE-8EB90FEB2ED8</string>
+</dict>
+</plist>

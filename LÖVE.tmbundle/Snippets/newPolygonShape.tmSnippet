@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:polygon} = love.physics.newPolygonShape( ${2:body}, ${3:vertices} )
+$0</string>
+	<key>name</key>
+	<string>newPolygonShape</string>
+	<key>tabTrigger</key>
+	<string>newpolygonshape</string>
+	<key>uuid</key>
+	<string>8147C125-FD59-42EE-9B8B-89D423B3A364</string>
+</dict>
+</plist>

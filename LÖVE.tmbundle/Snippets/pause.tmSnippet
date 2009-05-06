@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>love.audio.pause( )
+$0</string>
+	<key>name</key>
+	<string>pause</string>
+	<key>tabTrigger</key>
+	<string>pause</string>
+	<key>uuid</key>
+	<string>80F2D8AB-6431-40F5-9BB9-C51C07673F83</string>
+</dict>
+</plist>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>love.graphics.polygon( ${1:outline/filled}, ${2:vertices} )
+$0</string>
+	<key>name</key>
+	<string>polygon</string>
+	<key>tabTrigger</key>
+	<string>polygon</string>
+	<key>uuid</key>
+	<string>55068F08-1592-4DBB-B94B-0B8F8482A518</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>error( "${1:error message}"${2:, optionalUpStackLevel} )</string>
+	<key>name</key>
+	<string>error (with args)</string>
+	<key>scope</key>
+	<string>source.lua</string>
+	<key>tabTrigger</key>
+	<string>dofiile</string>
+	<key>uuid</key>
+	<string>C30A3BBB-8E96-4C46-B34C-4EAECB53DA24</string>
+</dict>
+</plist>

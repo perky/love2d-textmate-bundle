@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>love.graphics.setBackgroundColor( ${1:red}, ${2: green}, ${3:blue} )
+$0</string>
+	<key>name</key>
+	<string>setBackgroundColor</string>
+	<key>tabTrigger</key>
+	<string>setbackgroundcolor</string>
+	<key>uuid</key>
+	<string>4CC25036-39AF-493E-BE7D-456957E0C8FB</string>
+</dict>
+</plist>

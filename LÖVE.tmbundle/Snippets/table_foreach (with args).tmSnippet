@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>table.foreach( ${1:tableObject}, ${2:functionObject} )</string>
+	<key>name</key>
+	<string>table.foreach (with args)</string>
+	<key>scope</key>
+	<string>source.lua</string>
+	<key>tabTrigger</key>
+	<string>table.foreach</string>
+	<key>uuid</key>
+	<string>5ADD4F7B-876F-42D5-A2A5-C1F93B139022</string>
+</dict>
+</plist>

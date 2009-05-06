@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:var} = love.graphics.setMode( ${2:width}, ${3:height}, ${4:fullscreen}, ${5:vsync}, ${6:fsaa} )
+$0</string>
+	<key>name</key>
+	<string>setMode</string>
+	<key>tabTrigger</key>
+	<string>setmode</string>
+	<key>uuid</key>
+	<string>0C0AE9DE-3B88-4702-BD8A-AB945E6E3239</string>
+</dict>
+</plist>

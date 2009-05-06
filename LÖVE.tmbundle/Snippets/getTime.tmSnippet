@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:var} = love.timer.getTime( )
+$0</string>
+	<key>name</key>
+	<string>getTime</string>
+	<key>tabTrigger</key>
+	<string>gettime</string>
+	<key>uuid</key>
+	<string>22201C76-7257-428E-93AE-B53ECDA2FDA0</string>
+</dict>
+</plist>

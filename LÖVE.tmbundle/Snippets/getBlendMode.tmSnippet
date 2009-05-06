@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:var} = love.graphics.getBlendMode( )
+$0</string>
+	<key>name</key>
+	<string>getBlendMode</string>
+	<key>tabTrigger</key>
+	<string>getblendmode</string>
+	<key>uuid</key>
+	<string>D1AFFB33-D7CF-4544-807E-6FD13AAC7580</string>
+</dict>
+</plist>

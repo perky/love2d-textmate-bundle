@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>unpack( ${1:arrayTable} )</string>
+	<key>name</key>
+	<string>unpack (with args)</string>
+	<key>scope</key>
+	<string>source.lua</string>
+	<key>tabTrigger</key>
+	<string>unpack</string>
+	<key>uuid</key>
+	<string>FCDEBB5B-3D8A-458C-9714-A3E97574373A</string>
+</dict>
+</plist>

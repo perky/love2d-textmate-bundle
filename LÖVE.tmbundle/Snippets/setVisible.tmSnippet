@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>love.mouse.setVisible( ${1:TRUE|FALSE} )
+$0</string>
+	<key>name</key>
+	<string>setVisible</string>
+	<key>tabTrigger</key>
+	<string>setvisible</string>
+	<key>uuid</key>
+	<string>F97FFBAE-81FD-46B3-9DF9-A95486B519B4</string>
+</dict>
+</plist>

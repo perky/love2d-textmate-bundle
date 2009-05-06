@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:mousejoint} = love.graphics.newMouseJoint( ${2:body}, x, y )
+$0</string>
+	<key>name</key>
+	<string>newMouseJoint</string>
+	<key>tabTrigger</key>
+	<string>newmousejoint</string>
+	<key>uuid</key>
+	<string>DFA5450E-221E-4F4E-AF6F-30CEC640D34E</string>
+</dict>
+</plist>

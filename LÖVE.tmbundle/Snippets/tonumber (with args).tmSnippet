@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>tonumber( ${1:stringOrNumber}${2:, optionalBase} )</string>
+	<key>name</key>
+	<string>tonumber (with args)</string>
+	<key>scope</key>
+	<string>source.lua</string>
+	<key>tabTrigger</key>
+	<string>tonumber</string>
+	<key>uuid</key>
+	<string>6EB46E77-B884-4470-8F67-E410C2ADEE9D</string>
+</dict>
+</plist>

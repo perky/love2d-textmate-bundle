@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:number} = love.graphis.getLineStyle( )
+$0</string>
+	<key>name</key>
+	<string>getLineStyle</string>
+	<key>tabTrigger</key>
+	<string>getlinestyle</string>
+	<key>uuid</key>
+	<string>43F38EBA-FFA5-49EC-AAA5-9FC5C910C6C2</string>
+</dict>
+</plist>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:var} = love.graphics.newParticleSystem( ${2:image}, ${3:buffer} )
+$0</string>
+	<key>name</key>
+	<string>newParticleSystem</string>
+	<key>tabTrigger</key>
+	<string>newparticle</string>
+	<key>uuid</key>
+	<string>525B3216-120A-4C7A-9B3C-A3C23C2BECD5</string>
+</dict>
+</plist>

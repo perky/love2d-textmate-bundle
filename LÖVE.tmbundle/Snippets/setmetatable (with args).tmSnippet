@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>setmetatable( ${1:tableObject}, ${2:metatable} )</string>
+	<key>name</key>
+	<string>setmetatable (with args)</string>
+	<key>scope</key>
+	<string>source.lua</string>
+	<key>tabTrigger</key>
+	<string>setmetatable</string>
+	<key>uuid</key>
+	<string>7D1D1E0A-EDD0-4AD1-A495-2BFA27A36867</string>
+</dict>
+</plist>

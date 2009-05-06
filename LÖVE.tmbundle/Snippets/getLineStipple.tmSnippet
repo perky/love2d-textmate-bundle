@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:pattern}, ${2:rep} = love.graphics.getLineStipple( )
+$0</string>
+	<key>name</key>
+	<string>getLineStipple</string>
+	<key>tabTrigger</key>
+	<string>getlinestipple</string>
+	<key>uuid</key>
+	<string>13224132-3125-4C87-ABE6-9BDBAFF90063</string>
+</dict>
+</plist>

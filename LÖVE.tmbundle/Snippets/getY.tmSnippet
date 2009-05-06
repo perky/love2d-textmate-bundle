@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>y = love.mouse.getY( )
+$0</string>
+	<key>name</key>
+	<string>getY</string>
+	<key>tabTrigger</key>
+	<string>gety</string>
+	<key>uuid</key>
+	<string>8E9F8DFC-2B59-43B7-ABEB-4AEFD8BE5BEE</string>
+</dict>
+</plist>

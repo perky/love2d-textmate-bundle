@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>string.find( ${1:stringValue}, ${2:searchPattern}${3:, optionalStartIndex}${4:, plainModeFlag} )</string>
+	<key>name</key>
+	<string>string.find (with args)</string>
+	<key>scope</key>
+	<string>source.lua</string>
+	<key>tabTrigger</key>
+	<string>string.find</string>
+	<key>uuid</key>
+	<string>DBD57D1B-37ED-4C15-A8FB-DC5CC6DB0EF9</string>
+</dict>
+</plist>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>love.graphics.setScissor( ${1:x, y, {2:width}, ${3:height}})</string>
+	<key>name</key>
+	<string>setScissor</string>
+	<key>tabTrigger</key>
+	<string>setscissor</string>
+	<key>uuid</key>
+	<string>1A6CF86C-1D28-4038-891A-78DE0326EA30</string>
+</dict>
+</plist>

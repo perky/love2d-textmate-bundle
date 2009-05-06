@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>love.audio.play( ${1:sound|music}${2:, ${3:loop}} )
+$0</string>
+	<key>name</key>
+	<string>play</string>
+	<key>tabTrigger</key>
+	<string>play</string>
+	<key>uuid</key>
+	<string>7ADDF2D1-4D85-4492-A7B3-E2D636B3F802</string>
+</dict>
+</plist>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:var} = love.graphics.newAnimation( ${2:Image}${3:, ${4:width}, ${5:height}, ${6:delay}, ${7:frames}} )
+$0</string>
+	<key>name</key>
+	<string>newAnimation</string>
+	<key>tabTrigger</key>
+	<string>newanimation</string>
+	<key>uuid</key>
+	<string>9F095C25-9C81-4A9E-8A70-A48F8A790050</string>
+</dict>
+</plist>

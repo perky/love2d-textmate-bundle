@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:var} = love.mouse.isDown( ${2:button} )
+$0</string>
+	<key>name</key>
+	<string>isDown</string>
+	<key>tabTrigger</key>
+	<string>isdown</string>
+	<key>uuid</key>
+	<string>883D53A8-85CB-4809-9F46-FCCBD74D5CAD</string>
+</dict>
+</plist>

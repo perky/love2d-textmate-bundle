@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>table.concat( ${1:tableObject}${2:, ", "}${3:, optionalStartIndex}${4:, optionalEndIndex} )</string>
+	<key>name</key>
+	<string>table.concat (with args)</string>
+	<key>scope</key>
+	<string>source.lua</string>
+	<key>tabTrigger</key>
+	<string>table.concat</string>
+	<key>uuid</key>
+	<string>8E68AA99-64F4-4D36-AF80-D7D0B3DCD041</string>
+</dict>
+</plist>

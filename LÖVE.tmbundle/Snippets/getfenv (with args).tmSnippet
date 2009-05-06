@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>getfenv( ${1:stackLevelOrFunction} )</string>
+	<key>name</key>
+	<string>getfenv (with args)</string>
+	<key>scope</key>
+	<string>source.lua</string>
+	<key>tabTrigger</key>
+	<string>getfenv</string>
+	<key>uuid</key>
+	<string>EB474F83-31B4-424B-98D3-C83DCC79C600</string>
+</dict>
+</plist>

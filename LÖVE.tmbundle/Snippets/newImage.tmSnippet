@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:myImage} = love.graphics.newImage( "${2:filename}"${3:, ${4:mode}} )
+$0</string>
+	<key>name</key>
+	<string>newImage</string>
+	<key>tabTrigger</key>
+	<string>newimage</string>
+	<key>uuid</key>
+	<string>2B34F12F-9AF8-441F-A79D-78FDCE3D22CF</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>string.gfind( ${1:stringValue}, ${2:searchPattern} )</string>
+	<key>name</key>
+	<string>string.gfind (with args)</string>
+	<key>scope</key>
+	<string>source.lua</string>
+	<key>tabTrigger</key>
+	<string>string.format</string>
+	<key>uuid</key>
+	<string>05EEF1D4-058E-458D-B666-7AEA645A9817</string>
+</dict>
+</plist>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:seek} = love.filesystem.seek( ${2:file}, ${3:position} )
+$0</string>
+	<key>name</key>
+	<string>seek</string>
+	<key>tabTrigger</key>
+	<string>seek</string>
+	<key>uuid</key>
+	<string>FD6FAA12-DF69-4825-B165-4ED24EFC0938</string>
+</dict>
+</plist>

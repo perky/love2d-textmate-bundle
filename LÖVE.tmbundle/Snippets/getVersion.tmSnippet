@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:var} = love.system.getVersion( )
+$0</string>
+	<key>name</key>
+	<string>getVersion</string>
+	<key>tabTrigger</key>
+	<string>getversion</string>
+	<key>uuid</key>
+	<string>B5F3A155-7891-4A1D-8984-B19CEDC646FC</string>
+</dict>
+</plist>

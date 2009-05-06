@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>love.timer.getDelta( )
+$0</string>
+	<key>name</key>
+	<string>getDelta</string>
+	<key>tabTrigger</key>
+	<string>getdelta</string>
+	<key>uuid</key>
+	<string>822CA310-04E8-4F85-AB23-AA730A3918FA</string>
+</dict>
+</plist>

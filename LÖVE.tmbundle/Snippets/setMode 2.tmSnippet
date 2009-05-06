@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>love.audio.setMode( ${1:frequency}, ${2:mode}, ${3:buffer size} )
+$0</string>
+	<key>name</key>
+	<string>setMode</string>
+	<key>tabTrigger</key>
+	<string>setmode</string>
+	<key>uuid</key>
+	<string>4CFA5A92-A8E1-4AB8-9382-F2E4B6AF9E8F</string>
+</dict>
+</plist>

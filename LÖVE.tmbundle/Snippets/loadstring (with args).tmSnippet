@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>loadstring( ${1:sourceString}${2:, "optional error chunk name"} )</string>
+	<key>name</key>
+	<string>loadstring (with args)</string>
+	<key>scope</key>
+	<string>source.lua</string>
+	<key>tabTrigger</key>
+	<string>loadstring</string>
+	<key>uuid</key>
+	<string>B08BB7AB-355D-40AB-B916-08D870F7E942</string>
+</dict>
+</plist>

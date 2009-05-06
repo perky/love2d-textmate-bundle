@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>loadfile( "${1:filename.lua}" )</string>
+	<key>name</key>
+	<string>loadfile (with args)</string>
+	<key>scope</key>
+	<string>source.lua</string>
+	<key>tabTrigger</key>
+	<string>loadfile</string>
+	<key>uuid</key>
+	<string>4AFC9A9F-0B86-42E2-BA1F-E9C77C1AD19E</string>
+</dict>
+</plist>

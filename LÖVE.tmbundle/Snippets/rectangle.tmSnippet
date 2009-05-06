@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>love.graphics.rectangle( ${1:outline/filled}, x, y, ${2:w}, ${3:h} )
+$0</string>
+	<key>name</key>
+	<string>rectangle</string>
+	<key>tabTrigger</key>
+	<string>rectangle</string>
+	<key>uuid</key>
+	<string>28BDF8A2-CBCD-4472-80B3-0C39458FD626</string>
+</dict>
+</plist>

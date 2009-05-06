@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>love.graphics.screenshot( "${1:filename}" )
+$0</string>
+	<key>name</key>
+	<string>screenshot</string>
+	<key>tabTrigger</key>
+	<string>screenshot</string>
+	<key>uuid</key>
+	<string>DD2DE07B-111D-4A84-981D-11E4F903F65A</string>
+</dict>
+</plist>

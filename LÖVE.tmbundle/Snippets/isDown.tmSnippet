@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:down} = love.joystick.isDown( ${2:joystick}, ${3:button} )
+$0</string>
+	<key>name</key>
+	<string>isDown</string>
+	<key>tabTrigger</key>
+	<string>isdown</string>
+	<key>uuid</key>
+	<string>251330C3-9DA4-43CD-807F-78DBC8EBE46B</string>
+</dict>
+</plist>

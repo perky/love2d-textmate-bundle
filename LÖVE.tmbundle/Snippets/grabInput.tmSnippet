@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>love.system.grabInput( ${1:TRUE|FALSE} )
+$0</string>
+	<key>name</key>
+	<string>grabInput</string>
+	<key>tabTrigger</key>
+	<string>grabinput</string>
+	<key>uuid</key>
+	<string>42DF8B03-055D-4E3E-B0BC-003AA5C1AB3C</string>
+</dict>
+</plist>

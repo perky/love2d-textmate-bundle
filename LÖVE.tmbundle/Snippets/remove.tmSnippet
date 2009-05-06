@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:file} = love.filesystem.remove( "${2:file}" )
+$0</string>
+	<key>name</key>
+	<string>remove</string>
+	<key>tabTrigger</key>
+	<string>remove</string>
+	<key>uuid</key>
+	<string>D6360AD5-3278-4E63-B058-C4FA46C785FA</string>
+</dict>
+</plist>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:num} = love.joystick.getNumJoysticks( )
+$0</string>
+	<key>name</key>
+	<string>getNumJoysticks</string>
+	<key>tabTrigger</key>
+	<string>getnumjoysticks</string>
+	<key>uuid</key>
+	<string>6702D17E-D386-49A6-B4F1-C6F1BB543A8B</string>
+</dict>
+</plist>

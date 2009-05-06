@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:rectangle} = love.physics.newRectangleShape( ${2:body}, w, h )
+$0</string>
+	<key>name</key>
+	<string>newRectangleShape</string>
+	<key>tabTrigger</key>
+	<string>newrectangleshape</string>
+	<key>uuid</key>
+	<string>051F0E4C-204D-4965-8F5F-B3D60CFE8F3D</string>
+</dict>
+</plist>

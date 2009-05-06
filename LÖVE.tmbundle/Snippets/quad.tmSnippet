@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>love.graphics.quad( ${1:outline/filled}, ${2:x1}, ${2:y1}, ${3:x2}, ${4:y2}, ${5:x3}, ${6:y3}, ${7:x4}, ${8:y4} )
+$0</string>
+	<key>name</key>
+	<string>quad</string>
+	<key>tabTrigger</key>
+	<string>quad</string>
+	<key>uuid</key>
+	<string>8ED67CAC-E967-423F-8F89-9BA6C88B136B</string>
+</dict>
+</plist>

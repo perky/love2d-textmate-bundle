@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:dir} = love.filesystem.mkdir( "${1:directory}" )
+$0</string>
+	<key>name</key>
+	<string>mkdir</string>
+	<key>tabTrigger</key>
+	<string>mkdir</string>
+	<key>uuid</key>
+	<string>A72ECED6-13D2-4E84-BF58-FF160B72A07A</string>
+</dict>
+</plist>

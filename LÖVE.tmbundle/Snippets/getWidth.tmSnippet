@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:var} = love.graphics.getWidth( )
+$0</string>
+	<key>name</key>
+	<string>getWidth</string>
+	<key>tabTrigger</key>
+	<string>getwidth</string>
+	<key>uuid</key>
+	<string>251353EF-8A2A-48A3-91CF-35B4B36DFD8D</string>
+</dict>
+</plist>

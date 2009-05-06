@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:file} = love.filesystem.newFile( ${2:file}, ${3:love.file_read/write/append} )
+$0</string>
+	<key>name</key>
+	<string>newFile</string>
+	<key>tabTrigger</key>
+	<string>newfile</string>
+	<key>uuid</key>
+	<string>2FDF6417-91FC-432F-9DDD-109B5364E016</string>
+</dict>
+</plist>

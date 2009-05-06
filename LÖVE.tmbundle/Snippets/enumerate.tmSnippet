@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:enum} = love.filesystem.enumerate( "${2:directory}" )
+$0</string>
+	<key>name</key>
+	<string>enumerate</string>
+	<key>tabTrigger</key>
+	<string>enumerate</string>
+	<key>uuid</key>
+	<string>BF8EDCF7-B7AF-47CC-9FCA-56D966945272</string>
+</dict>
+</plist>

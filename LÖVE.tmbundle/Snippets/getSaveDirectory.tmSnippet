@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:savedir} = love.filesystem.getSaveDirectory( )</string>
+	<key>name</key>
+	<string>getSaveDirectory</string>
+	<key>tabTrigger</key>
+	<string>getsavedirectory</string>
+	<key>uuid</key>
+	<string>B37A97B8-C153-405E-B6C8-372A0BEA08F8</string>
+</dict>
+</plist>

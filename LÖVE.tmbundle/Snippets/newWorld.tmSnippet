@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:world} = love.graphics.newWorld( ${2:w}, ${3:h} )
+$0</string>
+	<key>name</key>
+	<string>newWorld</string>
+	<key>tabTrigger</key>
+	<string>newworld</string>
+	<key>uuid</key>
+	<string>B3DD468D-A623-469D-AE58-2BE37F3372EB</string>
+</dict>
+</plist>

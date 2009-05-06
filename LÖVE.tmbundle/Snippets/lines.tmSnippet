@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>love.filesystem.lines( ${1:file} )
+$0</string>
+	<key>name</key>
+	<string>lines</string>
+	<key>tabTrigger</key>
+	<string>lines</string>
+	<key>uuid</key>
+	<string>721E7F11-4FB8-4045-AC64-24E2FDBA755F</string>
+</dict>
+</plist>

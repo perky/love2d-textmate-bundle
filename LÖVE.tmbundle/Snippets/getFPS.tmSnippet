@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:var} = love.timer.getFPS( )
+$0</string>
+	<key>name</key>
+	<string>getFPS</string>
+	<key>tabTrigger</key>
+	<string>getfps</string>
+	<key>uuid</key>
+	<string>642DF4F3-453A-423A-BB4E-900209B64E65</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>loadlib( "${1:fullLibraryFilePath}", "${2:functionName}" )</string>
+	<key>name</key>
+	<string>loadlib (with args)</string>
+	<key>scope</key>
+	<string>source.lua</string>
+	<key>tabTrigger</key>
+	<string>loadstring</string>
+	<key>uuid</key>
+	<string>19D1B53A-C745-418C-876E-17F69F606DBA</string>
+</dict>
+</plist>

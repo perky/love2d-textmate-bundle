@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>coroutine.status( ${1:coroutine} )</string>
+	<key>name</key>
+	<string>coroutine.status (with args)</string>
+	<key>scope</key>
+	<string>source.lua</string>
+	<key>tabTrigger</key>
+	<string>coroutine.status</string>
+	<key>uuid</key>
+	<string>A6683071-EE27-497E-B311-802E6EB7ACAC</string>
+</dict>
+</plist>

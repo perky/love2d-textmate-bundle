@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:var} = love.graphics.newImageFont( "${2:filename}", ${3:glyphs}${4:, ${5:spacing}} )
+$0</string>
+	<key>name</key>
+	<string>newImageFont</string>
+	<key>tabTrigger</key>
+	<string>newimagefont</string>
+	<key>uuid</key>
+	<string>0C6E7F9B-5A93-4642-BF43-ECEE73996AB9</string>
+</dict>
+</plist>

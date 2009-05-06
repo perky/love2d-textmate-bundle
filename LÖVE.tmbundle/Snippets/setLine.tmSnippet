@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>love.graphics.setLine( ${1:width}, ${2:smooth|rough} )
+$0</string>
+	<key>name</key>
+	<string>setLine</string>
+	<key>tabTrigger</key>
+	<string>setline</string>
+	<key>uuid</key>
+	<string>6CCB23B4-EB00-4CF7-A1FB-29F54F7DF3AE</string>
+</dict>
+</plist>

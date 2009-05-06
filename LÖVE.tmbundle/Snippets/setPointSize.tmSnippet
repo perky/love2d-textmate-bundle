@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>love.graphics.setPointSize( ${1:size} )
+$0</string>
+	<key>name</key>
+	<string>setPointSize</string>
+	<key>tabTrigger</key>
+	<string>setpointsize</string>
+	<key>uuid</key>
+	<string>2280B5BA-DCB2-4FE2-8831-BD3BB89687C8</string>
+</dict>
+</plist>

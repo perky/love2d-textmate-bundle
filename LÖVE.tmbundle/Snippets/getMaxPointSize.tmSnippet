@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:max} = love.graphics.getMaxPointSize( )
+$0</string>
+	<key>name</key>
+	<string>getMaxPointSize</string>
+	<key>tabTrigger</key>
+	<string>getmaxpointsize</string>
+	<key>uuid</key>
+	<string>AC204191-708A-4A1D-A886-BD8E5A80FA2C</string>
+</dict>
+</plist>

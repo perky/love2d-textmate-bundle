@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:style} = love.graphics.getPointStyle( )
+$0</string>
+	<key>name</key>
+	<string>getPointStyle</string>
+	<key>tabTrigger</key>
+	<string>getpointstyle</string>
+	<key>uuid</key>
+	<string>F45A5AD1-E509-47DC-82D4-C3BC5827ABCC</string>
+</dict>
+</plist>

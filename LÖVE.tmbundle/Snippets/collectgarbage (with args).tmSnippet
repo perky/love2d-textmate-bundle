@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>collectgarbage( ${1:optionalKByteLimit} )</string>
+	<key>name</key>
+	<string>collectgarbage (with args)</string>
+	<key>scope</key>
+	<string>source.lua</string>
+	<key>tabTrigger</key>
+	<string>collectgarbage</string>
+	<key>uuid</key>
+	<string>FAB644D0-AE31-4071-92FC-E465C6771CD4</string>
+</dict>
+</plist>

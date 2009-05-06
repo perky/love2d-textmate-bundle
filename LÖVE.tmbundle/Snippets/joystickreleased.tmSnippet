@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>function joystickreleased()
+	$0
+end</string>
+	<key>name</key>
+	<string>joystickreleased</string>
+	<key>tabTrigger</key>
+	<string>joystickreleased</string>
+	<key>uuid</key>
+	<string>90B54AFC-C920-4091-9166-0E33D019EF2F</string>
+</dict>
+</plist>

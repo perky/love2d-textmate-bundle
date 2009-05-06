@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>love.system.exit( )
+$0</string>
+	<key>name</key>
+	<string>exit</string>
+	<key>tabTrigger</key>
+	<string>exit</string>
+	<key>uuid</key>
+	<string>FC401DC3-87B9-4401-9433-B0A45466A14D</string>
+</dict>
+</plist>

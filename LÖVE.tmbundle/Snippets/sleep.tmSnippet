@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>love.timer.sleep( ${1:ms} )
+$0</string>
+	<key>name</key>
+	<string>sleep</string>
+	<key>tabTrigger</key>
+	<string>sleep</string>
+	<key>uuid</key>
+	<string>4C9E3422-3420-4286-8B08-0A9852585075</string>
+</dict>
+</plist>

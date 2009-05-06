@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>love.filesystem.require( "${1:filename}" )
+$0</string>
+	<key>name</key>
+	<string>require</string>
+	<key>tabTrigger</key>
+	<string>require</string>
+	<key>uuid</key>
+	<string>4957E75B-8D59-448E-96B5-7A5AAE670B53</string>
+</dict>
+</plist>

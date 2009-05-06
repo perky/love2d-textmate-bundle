@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>rawequal( ${1:value1}, ${2:value2} )</string>
+	<key>name</key>
+	<string>rawequal (with args)</string>
+	<key>scope</key>
+	<string>source.lua</string>
+	<key>tabTrigger</key>
+	<string>rawequal</string>
+	<key>uuid</key>
+	<string>53F20ECE-72CD-4C14-A6EF-29866E9F7E22</string>
+</dict>
+</plist>

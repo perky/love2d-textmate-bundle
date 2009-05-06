@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:distancejoint} = love.physics.newDistanceJoint( ${1:body1}, ${2:body2}, ${3:x1}, ${4:y1}, ${5:x2}, ${6:y2} )
+$0</string>
+	<key>name</key>
+	<string>newDistanceJoint</string>
+	<key>tabTrigger</key>
+	<string>newdistancejoint</string>
+	<key>uuid</key>
+	<string>A8C556BB-4AFB-4B8F-B23C-72C449D00766</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>gcinfo( )</string>
+	<key>name</key>
+	<string>gcinfo (with args)</string>
+	<key>scope</key>
+	<string>source.lua</string>
+	<key>tabTrigger</key>
+	<string>gcinfo</string>
+	<key>uuid</key>
+	<string>41C3E329-702C-426F-A53A-FF5473368986</string>
+</dict>
+</plist>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>symbol</string>
+	<key>scope</key>
+	<string>source.lua meta.function.lua</string>
+	<key>settings</key>
+	<dict>
+		<key>showInSymbolList</key>
+		<integer>1</integer>
+		<key>symbolTransformation</key>
+		<string>
+		s/^function( *)\s+(.*)/$1$2/;
+	</string>
+	</dict>
+	<key>uuid</key>
+	<string>F1B40987-CC16-477B-8A1F-9D5E020FD5AB</string>
+</dict>
+</plist>

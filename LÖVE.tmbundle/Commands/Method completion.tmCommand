@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/env ruby -wKU 
+# CLASS METHOD AUTOCOMPLETION By Luke Perkin
+# This script will retrieve all class functions such as class:method(arg1,arg2)
+# when you type class and then : a list of all the methods available for that class pop up!
+# You can also use tab to jump to each argument of the function. =) enjoy.
+
+require ENV['TM_SUPPORT_PATH'] + '/lib/textmate.rb' 
+require ENV['TM_SUPPORT_PATH'] + '/lib/ui.rb'
+require ENV['TM_BUNDLE_SUPPORT'] + '/completion.rb'
+
+def find_methods( input, table, bool=false )
+text = input
+rgx = /function\s+([a-zA-Z0-9_.:]+[.:]?[a-zA-Z0-9_]\w*)\s*\(([^)]*)/
+myarray = text.scan(rgx)
+
+myarray.each do |a|
+	a.each_index do |b|
+		if b == 0 then next end
+		s = a[b].split(",")
+		@snippet = "( "
+		s.each_index do |c|
+			if not s[c].nil? then
+			  @snippet += "${" + (c+1).to_s + ":" + s[c].strip + "}"
+			  if c != s.size-1 then @snippet += ", " end
+			end
+		end
+		@snippet += " )$0"
+	end
+	
+	rgx2 = "--(.*)\nfunction " + a[0]
+	description_arr = text.scan(Regexp.new(rgx2))
+	@description = ""
+	description_arr.each_index do |d|
+		@description = description_arr[d].to_s
+	end
+	table[table.length] = { 'display' =&gt; a[0], 'insert' =&gt; @snippet, 'tool_tip' =&gt; @description }
+	
+	if bool then
+	rgx2 = "(.*)(:.*)"
+	meth = a[0].scan(Regexp.new(rgx2))
+	if meth[0].nil? then
+		meth[0] = {}
+		meth[0][0] = a[0]
+		meth[0][1] = "" 
+	end
+	inherit_scan( meth[0][0].to_s, meth[0][1].to_s, text, table, @snippet, @description )
+	end
+
+	end
+end
+end
+
+def inherit_scan( cname, mname, text, table, snippet, description )
+	rgx3 = "([a-zA-Z0-9._-]*)[ \t]*=[ \t]*" + cname
+	var = text.scan(Regexp.new(rgx3))
+	var.each_index do |d|
+		disp = var[d].to_s + mname
+		table[table.length] = { 'display' =&gt; disp, 'insert' =&gt; snippet, 'tool_tip' =&gt; description }
+	end
+
+	rgx3 = "([a-zA-Z0-9._-]*)\s*=\s*class[(]\s*[\"'].*[\"']\s*,\s*" + cname
+	var = text.scan(Regexp.new(rgx3))
+	var.each_index do |d|
+		disp = var[d].to_s + mname
+		table[table.length] = { 'display' =&gt; disp, 'insert' =&gt; snippet, 'tool_tip' =&gt; description }
+		inherit_scan( var[d].to_s, mname, text, table, snippet, description )
+	end
+end
+
+text = STDIN.read
+find_methods( text, @choices, true )
+
+def load_file(path)
+	if File.exist?( path ) then
+		file = File.new( path, "r" )
+		find_methods( file.read, @choices )
+		file.close
+	end
+end
+
+def check_files( dir )
+	Dir.foreach( dir ) do |file|
+		if file != "." and file != ".." then
+			file = dir+"/"+file
+			if File.directory?(file) then
+				check_files( file )
+			else
+				if file.include? ".lua" then
+					load_file(file)
+				end
+			end 
+		end
+	end
+end
+
+check_files( ENV['TM_DIRECTORY'] )
+
+#ENV['TM_SELECTED_TEXT'] = ENV['TM_CURRENT_WORD'] + ":"
+#print ":"
+
+TextMate::UI.complete(@choices, {:extra_chars =&gt; '.:'}) do |choice|
+	if choice['tool_tip'].length &gt; 0 then
+		TextMate::UI.tool_tip( choice['tool_tip'], {:format =&gt; :html} )
+	end
+	choice['insert']
+end
+</string>
+	<key>fallbackInput</key>
+	<string>word</string>
+	<key>input</key>
+	<string>document</string>
+	<key>keyEquivalent</key>
+	<string>§</string>
+	<key>name</key>
+	<string>Method Completion</string>
+	<key>output</key>
+	<string>afterSelectedText</string>
+	<key>scope</key>
+	<string>source.lua</string>
+	<key>uuid</key>
+	<string>E3B91ACE-081E-4405-88E0-4A4B5FED01C3</string>
+</dict>
+</plist>

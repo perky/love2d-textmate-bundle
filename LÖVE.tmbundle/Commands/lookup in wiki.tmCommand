@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>
+
+echo "&lt;meta http-equiv='Refresh'
+        content='0;URL=http://php.net/$TM_CURRENT_WORD'&gt;"</string>
+	<key>fallbackInput</key>
+	<string>word</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>keyEquivalent</key>
+	<string>~h</string>
+	<key>name</key>
+	<string>lookup in wiki</string>
+	<key>output</key>
+	<string>showAsHTML</string>
+	<key>scope</key>
+	<string>source.lua</string>
+	<key>uuid</key>
+	<string>84388C29-DB51-479B-B8DF-81B6D81A411B</string>
+</dict>
+</plist>

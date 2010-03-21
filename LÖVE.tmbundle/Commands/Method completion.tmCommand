@@ -11,6 +11,9 @@
 # when you type class and then : a list of all the methods available for that class pop up!
 # You can also use tab to jump to each argument of the function. =) enjoy.
 
+# OPTIONS
+read_external_files = true
+
 require ENV['TM_SUPPORT_PATH'] + '/lib/textmate.rb' 
 require ENV['TM_SUPPORT_PATH'] + '/lib/ui.rb'
 require ENV['TM_BUNDLE_SUPPORT'] + '/completion.rb'
@@ -33,51 +36,55 @@ myarray.each do |a|
 		end
 		@snippet += " )$0"
 	end
-	
-	rgx2 = "--(.*)\nfunction " + a[0]
-	description_arr = text.scan(Regexp.new(rgx2))
-	@description = ""
-	description_arr.each_index do |d|
-		@description = description_arr[d].to_s
-	end
-	table[table.length] = { 'display' =&gt; a[0], 'insert' =&gt; @snippet, 'tool_tip' =&gt; @description }
-	
+
+	description = comment_scan( a[0].to_s, text )
+	table[table.length] = { 'display' => a[0], 'insert' => @snippet, 'tool_tip' => description }
+
 	if bool then
-	rgx2 = "(.*)(:.*)"
-	meth = a[0].scan(Regexp.new(rgx2))
-	if meth[0].nil? then
-		meth[0] = {}
-		meth[0][0] = a[0]
-		meth[0][1] = "" 
+		rgx2 = "(.*)(:.*)"
+		meth = a[0].scan(Regexp.new(rgx2))
+		if meth[0].nil? then
+			meth[0] = {}
+			meth[0][0] = a[0]
+			meth[0][1] = "" 
+		end
+		inherit_scan( meth[0][0].to_s, meth[0][1].to_s, text, table, @snippet, description )
 	end
-	inherit_scan( meth[0][0].to_s, meth[0][1].to_s, text, table, @snippet, @description )
-	end
+end
 
 end
+
+def comment_scan( cname, text )
+	rgx2 = "[\t ]*--(.*)\n[\t ]*function\s*" + cname
+	description_arr = text.scan(Regexp.new(rgx2))
+	description = ""
+	description_arr.each_index do |d|
+		description = description_arr[d].to_s
+	end
+
+	description
 end
 
 def inherit_scan( cname, mname, text, table, snippet, description )
-	rgx3 = "([a-zA-Z0-9._-]*)[ \t]*=[ \t]*" + cname
+	rgx3 = "([a-zA-Z0-9._-]*)[ \t]*=[ \t]*" + cname + "\s*\n"
 	var = text.scan(Regexp.new(rgx3))
 	var.each_index do |d|
 		disp = var[d].to_s + mname
-		table[table.length] = { 'display' =&gt; disp, 'insert' =&gt; snippet, 'tool_tip' =&gt; description }
+		table[table.length] = { 'display' => disp, 'insert' => snippet, 'tool_tip' => description }
 	end
 
-	rgx3 = "([a-zA-Z0-9._-]*)\s*=\s*class[(]\s*[\"'].*[\"']\s*,\s*" + cname
+	rgx3 = "([a-zA-Z0-9._-]*)\s*=\s*class[(]\s*[\"'].*[\"']\s*,\s*" + cname 
 	var = text.scan(Regexp.new(rgx3))
 	var.each_index do |d|
 		disp = var[d].to_s + mname
-		table[table.length] = { 'display' =&gt; disp, 'insert' =&gt; snippet, 'tool_tip' =&gt; description }
+		#description = comment_scan(disp,text)
+		table[table.length] = { 'display' => disp, 'insert' => snippet, 'tool_tip' => description }
 		inherit_scan( var[d].to_s, mname, text, table, snippet, description )
 	end
 end
 
-text = STDIN.read
-find_methods( text, @choices, true )
-
 def load_file(path)
-	if File.exist?( path ) then
+	if File.exist?( path ) and path != ENV['TM_FILEPATH'] then
 		file = File.new( path, "r" )
 		find_methods( file.read, @choices )
 		file.close
@@ -99,10 +106,20 @@ def check_files( dir )
 	end
 end
 
-check_files( ENV['TM_DIRECTORY'] )
-
-#ENV['TM_SELECTED_TEXT'] = ENV['TM_CURRENT_WORD'] + ":"
-#print ":"
+text = STDIN.read
+find_methods( text, @choices, true )
+if read_external_files then
+	check_files( ENV['TM_DIRECTORY'] )
+end
+h = {}
+@choices.each do |c|
+	h[ c['display'] ] = c
+end
+@choices = []
+h.each_value do |c|
+	@choices[@choices.length] = c
+end
+@choices.reverse!
 
 TextMate::UI.complete(@choices, {:extra_chars =&gt; '.:'}) do |choice|
 	if choice['tool_tip'].length &gt; 0 then

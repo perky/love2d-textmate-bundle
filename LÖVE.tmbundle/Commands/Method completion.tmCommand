@@ -53,7 +53,6 @@ myarray.each do |a|
 	inherit_scan( meth[0][0].to_s, meth[0][1].to_s, text, table, @snippet, @description )
 	end
 
-	end
 end
 end
 
